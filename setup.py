@@ -6,7 +6,7 @@ try:
 except ImportError:
     extra_requires = ['enum34']
 
-REQUIRES = ['marshmallow>=3.0.0rc5'] + extra_requires
+REQUIRES = ['marshmallow==3.0.0rc5'] + extra_requires
 
 
 with open('README.md', 'r') as f:
